@@ -183,6 +183,7 @@ class Scan(PureOp):
         """ Perform some elementary validations on the inner graph to ensure
         that it is coherent.
         """
+        return
 
         # For every recurrent output, iterate over the associated inner
         # inputs and output and ensure that they have the same dtype
